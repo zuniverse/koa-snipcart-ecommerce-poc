@@ -1,9 +1,10 @@
-// app/views/home.pug
-h1="Home page"
-h2="list of products"
-each product in model.products
-  h3=product.name
-  p=product.description
-  p
-    span $#{product.price}
-  a(href="/buy/${product._slug}") More details
+extends _layout
+block content
+  h1="Home page"
+  h2="list of products"
+  each product in model.products
+    h3=product.name
+    p=product.description
+    p
+      span $#{product.price}
+    a(href=`/buy/${product._slug}`) More details

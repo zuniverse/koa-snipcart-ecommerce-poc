@@ -11,15 +11,15 @@
             "extension": "pug"
         }
     },
-    "static":{
-        "path":"app/static"
+    "static": {
+        "path": "app/static"
     },
     "data": {
         "path": "app/data"
     },
     "settings": {
-        "siteName": "Roe Jogan's podcast fundraiser",
+        "siteName": "My ecommerce POC with Koa & Snipcart",
         "snipcartApiKey": "YOURSNIPCARTAPI_KEY",
-        "defaultDonation" : 25
+        "defaultDonation": 25
     }
 }
