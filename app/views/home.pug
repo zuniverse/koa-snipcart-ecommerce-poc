@@ -1,0 +1,7 @@
+// app/views/home.pug
+each product in model.products
+  h3=product.name
+  p=product.description
+  p
+    span $#{product.price}
+  a(href=/buy/${product._slug}) More details
