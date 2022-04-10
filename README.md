@@ -10,6 +10,6 @@ If you wish to use it, fork original project instead. This will have code and wo
 
 to run, use the usual :
 
-npm init
-npm install
-npm run dev
+- npm init
+- npm install
+- npm run dev
