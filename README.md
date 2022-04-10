@@ -1,6 +1,6 @@
 # POC ecommerce using NodeJs, Koa and SnipCart
 
-This POC is based (NOT forked) from :
+This POC is based on (NOT forked from) :
 
 ```sh
 https://github.com/snipcart/node-js-ecommerce-koajs
